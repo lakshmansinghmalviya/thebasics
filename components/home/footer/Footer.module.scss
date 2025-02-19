@@ -1,0 +1,39 @@
+.footer {
+  @apply bg-gray-900 text-white py-6;
+}
+
+.footerContainer {
+  @apply flex flex-col items-center text-center md:text-left;
+}
+
+.footerText {
+  @apply text-gray-400 mb-2;
+}
+
+.footerLinks {
+  @apply flex flex-wrap justify-center md:justify-between gap-6 mt-6;
+}
+
+.footerColumn {
+  @apply w-full sm:w-1/2 md:w-1/3 lg:w-1/5;
+}
+
+.footerTitle {
+  @apply text-white text-lg font-semibold mb-2;
+}
+
+.footerList {
+  @apply space-y-2;
+}
+
+.footerItem {
+  @apply hover:text-blue-400 cursor-pointer transition;
+}
+
+.footerSocial {
+  @apply flex justify-center gap-6 mt-8;
+}
+
+.footerIcon {
+  @apply text-gray-400 hover:text-blue-500 transition duration-300;
+}

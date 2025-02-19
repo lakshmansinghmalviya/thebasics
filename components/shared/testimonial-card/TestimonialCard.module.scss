@@ -1,0 +1,41 @@
+.testimonialCard {
+    @apply bg-gray-900 text-white rounded-2xl shadow-lg p-4 
+           transition-transform duration-300 hover:scale-105 hover:shadow-2xl
+           w-[300px] h-[350px] flex flex-col;
+}
+
+.cardContent {
+    @apply flex flex-col h-full gap-4 justify-between;
+}
+
+/* This div holds the avatar, profession, and description */
+.topContent {
+    @apply flex flex-col gap-4;
+}
+
+/* Avatar & Profession in a row */
+.header {
+    @apply flex items-center justify-between;
+}
+
+.avatar {
+    @apply w-16 h-16 rounded-full border-2 border-white;
+}
+
+.profession {
+    @apply text-xs font-bold text-gray-400 text-right;
+}
+
+/* Description inside topContent */
+.description {
+    @apply text-sm leading-relaxed;
+}
+
+/* Name in its own container at the bottom */
+.bottomContent {
+    @apply flex justify-end;
+}
+
+.name {
+    @apply text-lg font-semibold text-blue-400;
+}
