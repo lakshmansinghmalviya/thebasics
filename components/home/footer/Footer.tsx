@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Typography, Box, Link } from "@mui/material";
-import { Facebook, Twitter, GitHub, LinkedIn } from "@mui/icons-material";
+import { Facebook, Twitter, GitHub, LinkedIn, Instagram } from "@mui/icons-material";
 import styles from "./Footer.module.scss";
 
 export const Footer = () => {
@@ -13,8 +13,8 @@ export const Footer = () => {
         </Typography>
         <Typography variant="body2" className={styles.footerText}>
           <strong>The Basics Digital Solutions Private Limited</strong> <br />
-          93, REVENUE NAGAR, NEAR HERO HONDA SHOWROOM, <br />
-          INDORE, Madhya Pradesh, 452009
+          93, Revenue Nagar, Near Hero Honda Showroom, <br />
+          Indore, Madhya Pradesh, 452009
         </Typography>
 
         {/* Links Section */}
@@ -82,7 +82,7 @@ export const Footer = () => {
 
         {/* Social Icons */}
         <Box className={styles.footerSocial}>
-          {[Facebook, Twitter, GitHub, LinkedIn].map((Icon, index) => (
+          {[Facebook, Twitter, GitHub, LinkedIn, Instagram].map((Icon, index) => (
             <Link key={index} href="#" className={styles.footerIcon}>
               <Icon fontSize="large" />
             </Link>
