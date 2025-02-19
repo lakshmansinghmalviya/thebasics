@@ -1,0 +1,46 @@
+.header {
+  @apply flex items-center justify-between px-6 py-4 bg-gray-900 text-white shadow-md left-0 w-full z-[100];
+}
+
+
+.logo {
+  @apply text-xl font-bold cursor-pointer;
+}
+
+/* Ensure the logo image scales properly */
+.logo img {
+  @apply h-auto max-w-full;
+}
+
+.nav {
+  @apply hidden md:flex gap-6;
+}
+
+.navItem {
+  @apply text-white hover:text-green-300 cursor-pointer transition-all relative;
+}
+
+/* Active Nav Item Style */
+.activeNavItem {
+  @apply text-green-400; /* Light green color */
+}
+
+/* Underline Effect */
+.activeNavItem::after {
+  content: "";
+  @apply absolute left-0 bottom-[-2px] w-full h-[1px] bg-green-400;
+}
+
+.menuIcon {
+  @apply text-white text-2xl md:hidden cursor-pointer;
+}
+
+/* Mobile Menu (Initially Hidden) */
+.mobileNav {
+  @apply flex flex-col items-center fixed top-0 left-0 w-full h-screen bg-gray-900 text-white py-10 shadow-md transform -translate-y-full transition-transform duration-300;
+}
+
+/* Show Mobile Menu */
+.showMobileNav {
+  @apply translate-y-0;
+}
