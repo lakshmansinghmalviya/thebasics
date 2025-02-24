@@ -1,0 +1,15 @@
+.devContainer {
+    @apply flex flex-wrap justify-center gap-3;
+  }
+  
+  .headingContainer {
+    @apply mt-6 mb-4;
+  }
+  
+  .servicesGrid {
+    @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 justify-center
+  }
+  
+  .testimonialsContainer {
+      @apply flex flex-wrap justify-center gap-6 p-6;
+    }

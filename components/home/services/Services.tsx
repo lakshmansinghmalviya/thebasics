@@ -94,7 +94,7 @@ export const Services = () => {
       </div>
       {/* Testimonials Section */}
       <div className={styles.headingContainer}>
-        <SimpleHeading text="What Our Clients Say" />
+        <SimpleHeading text="What Our Clients Say About Services At TheBasics" />
       </div>
       <div className={styles.section}>
         <div className={styles.testimonialsContainer}>
