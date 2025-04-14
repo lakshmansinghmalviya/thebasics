@@ -1,0 +1,35 @@
+.container {
+    @apply max-w-7xl mx-auto px-6 py-12;
+}
+
+.serviceCard {
+    @apply bg-gray-900 text-white rounded-2xl shadow-lg p-6 transition-transform duration-300 hover:scale-105 hover:shadow-2xl;
+}
+
+.description {
+    @apply text-base leading-relaxed text-gray-300 mb-4;
+}
+
+.subtitle {
+    @apply text-xl font-semibold text-blue-400 mt-6;
+}
+
+.highlight {
+    @apply text-blue-500 font-semibold;
+}
+
+.benefitsList {
+    @apply list-disc list-inside text-gray-300 space-y-2 pl-4;
+}
+
+.servicesGrid {
+    @apply mt-6;
+}
+
+.serviceItem {
+    @apply bg-gray-800 text-white rounded-lg shadow-md p-4 transition-transform duration-300 hover:scale-105 hover:shadow-xl;
+}
+
+.serviceText {
+    @apply text-sm font-medium text-center;
+}

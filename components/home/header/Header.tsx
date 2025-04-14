@@ -10,7 +10,7 @@ interface HeaderProps {
 
 export const Header: React.FC<HeaderProps> = ({ onNavItemClick }) => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const [activeItem, setActiveItem] = useState("Services"); // Default active item
+  const [activeItem, setActiveItem] = useState("Services");
 
   const menuItems = ["Services", "Products", "Development", "Payment", "Contact"];
 

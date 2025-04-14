@@ -1,0 +1,30 @@
+.cardContainer {
+    @apply bg-gray-900 text-white rounded-xl shadow-lg overflow-hidden 
+      transition-transform duration-300 hover:scale-105 hover:shadow-2xl 
+      w-[300px] h-[350px]; /* Adjust width and height */
+  }
+  
+  
+  .imageContainer {
+    @apply relative w-full h-48;
+  }
+  
+  .cardContent {
+    @apply p-4;
+  }
+  
+  .cardTitle {
+    @apply font-semibold text-lg;
+  }
+  
+  .cardDescription {
+    @apply text-gray-300 overflow-hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 5; /* Show only 5 lines */
+    -webkit-box-orient: vertical;
+    word-break: break-word;
+    min-height: 6.5rem; /* Prevent shrinking if less than 5 lines */
+    max-height: 6.5rem; /* Avoid extra space */
+  }
+  
+  
